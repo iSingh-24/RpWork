@@ -1,7 +1,7 @@
 {
-  "name": "BoilerPlate-FS",
+  "name": "React Hooks",
   "version": "1.0.0",
-  "description": "Boiler Plate Hooked With React",
+  "description": "React State Practice",
   "main": "index.js",
   "scripts": {
     "build:dev": "webpack --watch",
