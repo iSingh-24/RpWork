@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    entry: './src/index.js',
+    entry: './client/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'main.[contenthash].js',
@@ -33,7 +33,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/template.html',
+            template: './client/template.html',
         }),
         new CleanWebpackPlugin(),
     ],
